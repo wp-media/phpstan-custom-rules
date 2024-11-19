@@ -1,0 +1,7 @@
+services:
+    -
+        class: WPMedia\PHPStan\Rules\ApplyFiltersTyped\ApplyFiltersTypedDynamicFunctionReturnTypeExtension
+        tags:
+            - phpstan.broker.dynamicFunctionReturnTypeExtension
+rules:
+	- WPMedia\PHPStan\Rules\ApplyFiltersTyped\HookDocsRule
